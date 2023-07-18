@@ -279,6 +279,7 @@
 
   .our{
     text-align: center;
+    margin-top: 100px;
   }
 
   .logo-one{
@@ -311,6 +312,8 @@
     cursor: pointer;
   }
 
+
+
   footer{
     background-color: #111D5E;
     margin-top: 80px;
@@ -335,4 +338,126 @@
     padding: 10px;
     cursor: pointer;
     
+  }
+
+
+
+/* ========================================================== */
+
+
+
+  .main-conference{
+    /* margin: 500px 0px; */
+  }
+
+  .conference{
+    display: grid;
+    grid-template-columns: 30%  10% 30%;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+  }
+
+  .main-logo-con{
+    position: relative;
+
+
+  }
+
+  .conference-logo{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    /* background-color: rebeccapurple;
+     */
+     border: 1px solid gray;
+     align-items: center;
+    border-radius: 50%;
+  }
+  .conference-logo img{
+    margin:  0px auto;
+    width: 90%;
+  }
+  .conference-colum{
+    position: absolute;
+    align-items: center;
+    border: 1px solid gray;
+    width: 80px;
+    height: 0px;
+    transform: rotate(90deg);
+    left: -19px; 
+    top: 90px;
+  }
+
+  .left-div{
+    width: 100%;
+    border-top: 3px solid gray;
+    padding: 15px 0px 15px 10px;
+    line-height: 15px;
+    font-size: 14px;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+  }
+  .left-div a{
+    text-decoration: none;
+  }
+  .right-div{
+    font-size: 16px;
+    width: 100%;
+  }
+
+
+  .left-div1{
+    border-top: 3px solid gray;
+    width: 100%;
+    padding: 15px 1px 15px 10px;
+    line-height: 15px;
+    font-size: 14px;
+    text-align: start;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+  }
+  .right-div1{
+    text-align: end;
+    font-size: 16px;
+    width: 100%;
+  }
+
+
+  @media (max-width:600px) {
+    .conference{
+      display: grid;
+      grid-template-columns: 80% 10%;
+      padding: 10px;
+      margin: 0px;
+      width: 100%;
+      grid-column-end: auto;
+      /* grid-auto-flow: dense; */
+
+
+    }
+    .conference{
+      /* display: flex;
+      flex-direction: column-reverse; */
+    }
+    .main-logo-con{
+      /* position: relative; */
+      
+    }
+    .conference-logo{
+      position: absolute;
+      /* float: ; */
+    }
+    .conference-colum{
+        position: absolute;
+
+    }
+    .left-div{
+      float: right;
+      width: 100%;
+    }
+    .right-div1{
+      text-align: start;
+    }
   }
