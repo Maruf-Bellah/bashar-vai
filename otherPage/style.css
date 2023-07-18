@@ -1,6 +1,7 @@
 
 body{
     font-family: inter;
+    margin: 0px;
 }
 
 * {
@@ -170,3 +171,35 @@ body{
         }
    
   }
+
+  
+  footer{
+    background-color: #111D5E;
+    margin-top: 80px;
+
+  }
+   .text{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer-logo{
+    padding: 50px 0px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px;
+  }
+  .social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .social img{
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+    
+  }
+
